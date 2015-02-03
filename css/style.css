@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'norwester';
+	src: url('../fonts/norwester.ttf');
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FDFDFD;
+	position: relative;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.soon,
+.you_will_be,
+.impressed {
+	color: #f4645f;
+	font-family: "norwester";
+	text-transform: uppercase;
+	display: block;
+	font-size: 6rem;
+	line-height: 1em;
+	text-align: center;
+}
+.you_will_be {
+	font-size: 3rem;
+}
+.soon {
+	font-size: 2rem;
+}
+
